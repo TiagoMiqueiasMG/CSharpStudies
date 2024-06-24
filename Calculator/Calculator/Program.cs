@@ -18,6 +18,7 @@ namespace Calculator
             Console.WriteLine("2 - Subração");
             Console.WriteLine("3 - Multiplicação");
             Console.WriteLine("4 - Divisão");
+            Console.WriteLine("5 - Sair");
 
             Console.WriteLine("-----------");
             Console.WriteLine("Selecione uma opção: ");
@@ -34,6 +35,7 @@ namespace Calculator
                 case 2: Subtracao(); break;
                 case 3: Multiplicacao(); break;
                 case 4: Divisao(); break;
+                case 5: System.Environment.Exit(0); break;
                 // E uma função default, neste caso 
                 // usaremos o menu para voltar para o Menu
                 // Caso o usuário digite uma função inválida
