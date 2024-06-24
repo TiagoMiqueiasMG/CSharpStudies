@@ -6,7 +6,40 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            Divisao();
+            Menu();
+        }
+
+        static void Menu()
+        {
+            Console.Clear();
+
+            Console.WriteLine("O que deseja Calcular? :  ");
+            Console.WriteLine("1 - Soma");
+            Console.WriteLine("2 - Subração");
+            Console.WriteLine("3 - Multiplicação");
+            Console.WriteLine("4 - Divisão");
+
+            Console.WriteLine("-----------");
+            Console.WriteLine("Selecione uma opção: ");
+
+            // Neste caso como o resultado é basico
+            // Iremos usar o short, o menor tipo numérico
+            // Que podemos ter
+
+            short res = short.Parse(Console.ReadLine());
+
+            switch (res)
+            {
+                case 1: Soma(); break;
+                case 2: Subtracao(); break;
+                case 3: Multiplicacao(); break;
+                case 4: Divisao(); break;
+                // E uma função default, neste caso 
+                // usaremos o menu para voltar para o Menu
+                // Caso o usuário digite uma função inválida
+                default: Menu(); break;
+            }
+
         }
 
         static void Soma()
@@ -27,6 +60,7 @@ namespace Calculator
 
             // Usamos o ReadKey para não sair da tela
             Console.ReadKey();
+            Menu();
         }
 
         static void Subtracao()
@@ -47,6 +81,7 @@ namespace Calculator
 
             // Usamos o ReadKey para não sair da tela
             Console.ReadKey();
+            Menu();
         }
 
         static void Multiplicacao()
@@ -66,8 +101,9 @@ namespace Calculator
 
             // Usamos o ReadKey para não sair da tela
             Console.ReadKey();
+            Menu();
         }
-    
+
         static void Divisao()
         {
             Console.Clear();
@@ -79,14 +115,13 @@ namespace Calculator
             float valor2 = float.Parse(Console.ReadLine());
 
             Console.WriteLine("");
-            
+
             float resultado = valor1 / valor2;
             Console.WriteLine($"O Resultado da divisão é: {resultado}");
 
             // Usamos o ReadKey para não sair da tela
             Console.ReadKey();
+            Menu();
         }
     }
-
-
 }
