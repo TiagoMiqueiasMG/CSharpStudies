@@ -14,6 +14,7 @@ namespace Calculator
             Console.Clear();
 
             Console.WriteLine("O que deseja Calcular? :  ");
+
             Console.WriteLine("1 - Soma");
             Console.WriteLine("2 - Subração");
             Console.WriteLine("3 - Multiplicação");
@@ -56,9 +57,9 @@ namespace Calculator
             float resultado = valor1 + valor2;
 
             Console.WriteLine($"O resultado da soma é {resultado}");
-            Console.WriteLine("O resultado da Soma é " + resultado);
-            Console.WriteLine($"O resultado da soma é {valor1 + valor2}");
-            Console.WriteLine("O resuldado da soma é " + (valor1 + valor2));
+            // Console.WriteLine("O resultado da Soma é " + resultado);
+            // Console.WriteLine($"O resultado da soma é {valor1 + valor2}");
+            // Console.WriteLine("O resuldado da soma é " + (valor1 + valor2));
 
             // Usamos o ReadKey para não sair da tela
             Console.ReadKey();
