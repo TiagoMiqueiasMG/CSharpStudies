@@ -51,6 +51,8 @@ namespace Calculator
 
         static void Multiplicacao()
         {
+            Console.Clear();
+
             Console.WriteLine("Primeiro Valor: ");
             float valor1 = float.Parse(Console.ReadLine());
 
@@ -68,6 +70,8 @@ namespace Calculator
     
         static void Divisao()
         {
+            Console.Clear();
+
             Console.WriteLine("Digite o primeiro valor: ");
             float valor1 = float.Parse(Console.ReadLine());
 
