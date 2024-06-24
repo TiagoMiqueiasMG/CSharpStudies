@@ -1,0 +1,14 @@
+D:\Studies_CSHARP\CSharpStudies\Stopwatch\Stopwatch\bin\Debug\net7.0\Stopwatch.exe
+D:\Studies_CSHARP\CSharpStudies\Stopwatch\Stopwatch\bin\Debug\net7.0\Stopwatch.deps.json
+D:\Studies_CSHARP\CSharpStudies\Stopwatch\Stopwatch\bin\Debug\net7.0\Stopwatch.runtimeconfig.json
+D:\Studies_CSHARP\CSharpStudies\Stopwatch\Stopwatch\bin\Debug\net7.0\Stopwatch.dll
+D:\Studies_CSHARP\CSharpStudies\Stopwatch\Stopwatch\bin\Debug\net7.0\Stopwatch.pdb
+D:\Studies_CSHARP\CSharpStudies\Stopwatch\Stopwatch\obj\Debug\net7.0\Stopwatch.GeneratedMSBuildEditorConfig.editorconfig
+D:\Studies_CSHARP\CSharpStudies\Stopwatch\Stopwatch\obj\Debug\net7.0\Stopwatch.AssemblyInfoInputs.cache
+D:\Studies_CSHARP\CSharpStudies\Stopwatch\Stopwatch\obj\Debug\net7.0\Stopwatch.AssemblyInfo.cs
+D:\Studies_CSHARP\CSharpStudies\Stopwatch\Stopwatch\obj\Debug\net7.0\Stopwatch.csproj.CoreCompileInputs.cache
+D:\Studies_CSHARP\CSharpStudies\Stopwatch\Stopwatch\obj\Debug\net7.0\Stopwatch.dll
+D:\Studies_CSHARP\CSharpStudies\Stopwatch\Stopwatch\obj\Debug\net7.0\refint\Stopwatch.dll
+D:\Studies_CSHARP\CSharpStudies\Stopwatch\Stopwatch\obj\Debug\net7.0\Stopwatch.pdb
+D:\Studies_CSHARP\CSharpStudies\Stopwatch\Stopwatch\obj\Debug\net7.0\Stopwatch.genruntimeconfig.cache
+D:\Studies_CSHARP\CSharpStudies\Stopwatch\Stopwatch\obj\Debug\net7.0\ref\Stopwatch.dll
