@@ -20,7 +20,11 @@ namespace Stopwatch
 
             // ToLower para converter os inputs em minúsculas
             string data = Console.ReadLine().ToLower();
-            Console.WriteLine(data);
+            // Para pegar o último caracter 
+            char type = char.Parse(data.Substring(data.Length - 1, 1));
+            // Para pegar todos os caracteres menos 1(final)
+            int time = int.Parse(data.Substring(0, data.Length - 1));
+
         }
 
         static void Start(int time)
@@ -37,8 +41,8 @@ namespace Stopwatch
                 // para pedir a aplicação para esperar um 
                 // segundo antes de ir para o próximo valor
                 Thread.Sleep(1000);
-
             }
+
             Console.Clear();
             Console.WriteLine("Stopwatch finished");
             Thread.Sleep(1500);
