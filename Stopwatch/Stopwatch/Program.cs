@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace Stopwatch
 {
@@ -6,12 +7,11 @@ namespace Stopwatch
     {
         static void Main(string[] args)
         {
-            Start();
+            Start(6);
         }
 
-        static void Start()
+        static void Start(int time)
         {
-            int time = 10;
             int currentTime = 0;
 
             while (currentTime != time)
@@ -21,8 +21,19 @@ namespace Stopwatch
                 Console.Clear();
                 currentTime++;
                 Console.WriteLine(currentTime);
+                // para pedir a aplicação para esperar um 
+                // segundo antes de ir para o próximo valor
+                Thread.Sleep(1000);
+
             }
 
+            Console.Clear();
+            Console.WriteLine("Stopwatch finished");
+            Thread.Sleep(1500);
+
         }
+
     }
+
+
 }

@@ -126,5 +126,7 @@ namespace Calculator
             Console.ReadKey();
             Menu();
         }
+    
     }
+
 }
