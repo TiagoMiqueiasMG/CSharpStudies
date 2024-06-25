@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace TextEditor
 {
@@ -47,7 +48,29 @@ namespace TextEditor
             }
             while (Console.ReadKey().Key != ConsoleKey.Escape);
 
-            Console.Write(text);
+            Save(text);
+        }
+
+        static void Save(string text)
+        {
+            Console.Clear();
+            Console.WriteLine("Qual caminho para salvar o arquivo? ");
+            var path = Console.ReadLine();
+
+            // Toda vez que trabalhamos com arquivos, precisamos abrir e fechar os arquivos
+            // Senão outra pessoa não consegue abrir
+
+            // todo objeto passado no using, ele vai abrir e fechar os aquivos
+            // StreamWriter serve para um fluxo de escrita
+            using(var file = new StreamWriter(path))
+            {
+                file.Write(text);
+            }
+            
+            Console.WriteLine($"Arquivo { path } Salvo com Sucesso");
+            Console.ReadLine();
+            Menu();
+
         }
 
     }
