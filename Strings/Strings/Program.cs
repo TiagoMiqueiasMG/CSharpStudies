@@ -17,6 +17,19 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Comparando com objto inválido
             Console.WriteLine(texto.Contains(null));
 
+            // SartsWith/EndsWith
+            // Retorna um booleano
+            Console.WriteLine(texto.StartsWith("este"));
+            Console.WriteLine(texto.StartsWith("Este"));
+            Console.WriteLine(texto.StartsWith("texto"));
+
+            Console.WriteLine(texto.EndsWith("Texto"));
+            Console.WriteLine(texto.EndsWith("testo"));
+            Console.WriteLine(texto.EndsWith("xpro"));
+
+            
+
+
         }
     }
 }
