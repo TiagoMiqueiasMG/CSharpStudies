@@ -73,7 +73,14 @@ namespace MyApp // Note: actual namespace depends on the project name.
             Console.WriteLine(textoExemplo2.Replace("Este", "Isto"));
             Console.WriteLine(textoExemplo2.Replace("e", "X"));
 
-            
+            // Split
+            // Usado para dividir
+            // Neste caso ele sempre vai quebrar o texto nos lugares que tem espaço
+            var divisao = textoExemplo2.Split(" ");
+            Console.WriteLine(divisao[0]);
+            Console.WriteLine(divisao[1]);
+            Console.WriteLine(divisao[2]);
+            Console.WriteLine(divisao[3]);
 
         }
     }
