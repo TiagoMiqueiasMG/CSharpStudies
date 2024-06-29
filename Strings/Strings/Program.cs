@@ -101,14 +101,13 @@ namespace MyApp // Note: actual namespace depends on the project name.
             textoTeste.Append("doido que ");
             textoTeste.Append("que estamos criando ");
             textoTeste.Append("para testar o string Builder ");
-
+            
+            // Lembre-se ele é um string builder e não uma string
+            // Então, para trabalhar com ele como string é preciso converter
+            textoTeste.ToString();
+            // E neste caso, o Console.WriteLine já converte para string 
             Console.WriteLine(textoTeste);
             
-
-
-
-
-
 
         }
     }
