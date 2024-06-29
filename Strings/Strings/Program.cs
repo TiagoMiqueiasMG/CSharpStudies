@@ -66,7 +66,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Trás a quantidade de caracteres que uma string tem
             Console.WriteLine(textoExemplo.Length);
 
-            var textoExemplo2 = "Este é o texto de exemplo";
+            var textoExemplo2 = " Este é o texto de exemplo ";
             // Replace
             // Ele pede um carcter um antigo e um novo para substituição
             // É case sensitive
@@ -85,7 +85,15 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // You can use the Substring method to find a substring between two strings. 
             // First, you need to find the position of the two strings in the string.
             var resultado = texto.Substring(5, 5);
+            // var resultado = textoExemplo2.Substring(7, textoExemplo2.LastIndexOf("o"));
             Console.WriteLine(resultado);
+
+            // Trim recome o espaço no começo e no fim
+            // ajuda para tratar erro de usuário quando ele da um espaço no começo e no final            
+            Console.WriteLine(textoExemplo2.Trim());
+
+
+
 
         }
     }
