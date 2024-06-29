@@ -82,6 +82,11 @@ namespace MyApp // Note: actual namespace depends on the project name.
             Console.WriteLine(divisao[2]);
             Console.WriteLine(divisao[3]);
 
+            // You can use the Substring method to find a substring between two strings. 
+            // First, you need to find the position of the two strings in the string.
+            var resultado = texto.Substring(5, 5);
+            Console.WriteLine(resultado);
+
         }
     }
 }
