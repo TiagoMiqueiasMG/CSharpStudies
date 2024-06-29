@@ -51,6 +51,11 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // último indice que ele encotrar de letra ou palavra
             Console.WriteLine(textoExemplo.IndexOf("l"));
 
+            // ToUpper ou ToLower
+            // Converter para maiúsculo ou minúsculo
+            Console.WriteLine(textoExemplo.ToLower());
+            Console.WriteLine(textoExemplo.ToUpper());
+
         }
     }
 }
