@@ -56,6 +56,18 @@ namespace MyApp // Note: actual namespace depends on the project name.
             Console.WriteLine(textoExemplo.ToLower());
             Console.WriteLine(textoExemplo.ToUpper());
 
+            // Inserir um caracter usando o Insert
+            Console.WriteLine(textoExemplo.Insert(5, "Aqui "));
+
+            // Remove para remover, é preciso passar o inicio e fim que deseja renover
+            Console.WriteLine(textoExemplo.Remove(7, 11));
+
+            // Length
+            // Trás a quantidade de caracteres que uma string tem
+            Console.WriteLine(textoExemplo.Length);
+
+            
+
         }
     }
 }
