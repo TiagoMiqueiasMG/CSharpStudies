@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace MyApp // Note: actual namespace depends on the project name.
 {
@@ -91,6 +92,20 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Trim recome o espaço no começo e no fim
             // ajuda para tratar erro de usuário quando ele da um espaço no começo e no final            
             Console.WriteLine(textoExemplo2.Trim());
+
+            // StringBuilder
+            // Usado para construir textos de maneira dinâmica
+            var textoTeste = new StringBuilder();
+            // Daí poderemos fazer quantas linhas quisermos
+            textoTeste.Append("Este é o texto ");
+            textoTeste.Append("doido que ");
+            textoTeste.Append("que estamos criando ");
+            textoTeste.Append("para testar o string Builder ");
+
+            Console.WriteLine(textoTeste);
+            
+
+
 
 
 
