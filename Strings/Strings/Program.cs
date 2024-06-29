@@ -66,6 +66,13 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Trás a quantidade de caracteres que uma string tem
             Console.WriteLine(textoExemplo.Length);
 
+            var textoExemplo2 = "Este é o texto de exemplo";
+            // Replace
+            // Ele pede um carcter um antigo e um novo para substituição
+            // É case sensitive
+            Console.WriteLine(textoExemplo2.Replace("Este", "Isto"));
+            Console.WriteLine(textoExemplo2.Replace("e", "X"));
+
             
 
         }
