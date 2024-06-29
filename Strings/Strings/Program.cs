@@ -36,7 +36,6 @@ namespace MyApp // Note: actual namespace depends on the project name.
             Console.WriteLine(texto.Equals("este texto é um teste"));
             Console.WriteLine(texto.Equals("este texto é um teste", StringComparison.OrdinalIgnoreCase));
 
-
             // Index ( Posição deste item no array)
             // Em C# vai começar do 0
             // Nosso String é um array de caracteres
@@ -106,9 +105,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Então, para trabalhar com ele como string é preciso converter
             textoTeste.ToString();
             // E neste caso, o Console.WriteLine já converte para string 
-            Console.WriteLine(textoTeste);
-            
-
+            Console.WriteLine(textoTeste);          
         }
     }
 }
