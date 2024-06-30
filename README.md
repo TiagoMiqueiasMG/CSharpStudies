@@ -1,4 +1,4 @@
-#Repositório de Estudos em C# e .NET
+# Repositório de Estudos em C# e .NET
 
 Este repositório foi criado para armazenar uma coleção de projetos desenvolvidos com base nos estudos oferecidos pelo Balta.io. Aqui você encontrará uma variedade de exemplos e aplicações que exploram diferentes aspectos da linguagem C# e do framework .NET, seguindo as melhores práticas e padrões recomendados pelo Balta.
 
@@ -22,10 +22,11 @@ Clone o repositório para sua máquina local utilizando o comando:
 
 bash
 Copiar código
-git clone https://github.com/seu-usuario/repositorio-csharp-net.git
+git clone https://github.com/seu-usuario/repositorio-csharp-net.git](https://github.com/TiagoMiqueiasMG/CSharpStudies.git
 
 Navegue até a pasta do projeto desejado (Calculator, StopWatch, etc.).
 
+Rode com: dotnet run
 
 Contribuições
 Contribuições são bem-vindas! Se você tem sugestões para melhorar algum projeto existente, adicionar novos exemplos ou corrigir problemas, sinta-se à vontade para enviar um pull request.
