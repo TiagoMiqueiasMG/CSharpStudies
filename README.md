@@ -22,7 +22,7 @@ Clone o repositório para sua máquina local utilizando o comando:
 
 bash
 Copiar código
-git clone https://github.com/seu-usuario/repositorio-csharp-net.git](https://github.com/TiagoMiqueiasMG/CSharpStudies.git
+git clone https://github.com/TiagoMiqueiasMG/CSharpStudies.git
 
 Navegue até a pasta do projeto desejado (Calculator, StopWatch, etc.).
 
