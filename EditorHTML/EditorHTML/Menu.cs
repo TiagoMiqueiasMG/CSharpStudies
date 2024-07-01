@@ -59,9 +59,9 @@ namespace EditorHTML
             Console.SetCursorPosition(3, 6);
             Console.WriteLine("1 - Novo Arquivo ");
             Console.SetCursorPosition(3, 7);
-            Console.WriteLine("1 - Abrir ");
+            Console.WriteLine("2 - Abrir ");
             Console.SetCursorPosition(3, 9);
-            Console.WriteLine("1 - Sair ");
+            Console.WriteLine("0 - Sair ");
             Console.SetCursorPosition(3, 10);
             Console.Write("Opção: ");
         }
@@ -70,7 +70,7 @@ namespace EditorHTML
         {
             switch (option)
             {
-                case 1: Console.WriteLine("Editor"); break;
+                case 1: Editor.Show(); break;
                 case 2: Console.WriteLine("View"); break;
                 case 0:
                 {
