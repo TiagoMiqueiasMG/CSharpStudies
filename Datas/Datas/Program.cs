@@ -36,6 +36,22 @@ namespace Datas
             //Para saber qual dia do ano é
             Console.WriteLine(data.DayOfYear);
 
+            // Formantando data
+            var dataNova = DateTime.Now;
+            // Podendo alterar a posição do dia, mês e ano
+            // E colocar outros caracteres no lugar da barra
+            // Como * - ...
+            var formatada = string.Format("{0:dd/MM/yyyy}", dataNova);
+            
+            // Formatando com horas, minutos e segundos: 
+            var formatDataHora = string.Format("{0:dd/MM/yyyy hh:mm:ss}", dataNova);
+            Console.WriteLine(formatada);
+            Console.WriteLine(formatDataHora);
+
+            // z = timezone ( Aonde que essa hora está sendo baseada)
+            // Relacionado aos meridionais
+            var formatDataHora2 = string.Format("{0:dd/MM/yyyy hh:mm:ss z}", dataNova);
+            Console.WriteLine(formatDataHora2);
         }
     }
 }
