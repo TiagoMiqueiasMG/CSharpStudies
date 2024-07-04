@@ -1,0 +1,14 @@
+D:\Studies_CSHARP\CSharpStudies\Datas\Datas\bin\Debug\net7.0\Datas.exe
+D:\Studies_CSHARP\CSharpStudies\Datas\Datas\bin\Debug\net7.0\Datas.deps.json
+D:\Studies_CSHARP\CSharpStudies\Datas\Datas\bin\Debug\net7.0\Datas.runtimeconfig.json
+D:\Studies_CSHARP\CSharpStudies\Datas\Datas\bin\Debug\net7.0\Datas.dll
+D:\Studies_CSHARP\CSharpStudies\Datas\Datas\bin\Debug\net7.0\Datas.pdb
+D:\Studies_CSHARP\CSharpStudies\Datas\Datas\obj\Debug\net7.0\Datas.GeneratedMSBuildEditorConfig.editorconfig
+D:\Studies_CSHARP\CSharpStudies\Datas\Datas\obj\Debug\net7.0\Datas.AssemblyInfoInputs.cache
+D:\Studies_CSHARP\CSharpStudies\Datas\Datas\obj\Debug\net7.0\Datas.AssemblyInfo.cs
+D:\Studies_CSHARP\CSharpStudies\Datas\Datas\obj\Debug\net7.0\Datas.csproj.CoreCompileInputs.cache
+D:\Studies_CSHARP\CSharpStudies\Datas\Datas\obj\Debug\net7.0\Datas.dll
+D:\Studies_CSHARP\CSharpStudies\Datas\Datas\obj\Debug\net7.0\refint\Datas.dll
+D:\Studies_CSHARP\CSharpStudies\Datas\Datas\obj\Debug\net7.0\Datas.pdb
+D:\Studies_CSHARP\CSharpStudies\Datas\Datas\obj\Debug\net7.0\Datas.genruntimeconfig.cache
+D:\Studies_CSHARP\CSharpStudies\Datas\Datas\obj\Debug\net7.0\ref\Datas.dll
