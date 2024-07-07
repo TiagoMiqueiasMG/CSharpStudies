@@ -52,6 +52,39 @@ namespace Datas
             // Relacionado aos meridionais
             var formatDataHora2 = string.Format("{0:dd/MM/yyyy hh:mm:ss z}", dataNova);
             Console.WriteLine(formatDataHora2);
+
+            // Caso queira exibir o tempo longo use o T
+            var formatDataHora3 = string.Format("{0:T}", dataNova);
+            Console.WriteLine(formatDataHora3);
+
+            // Para exibir a data por extenso, coloque o D
+            var formatDataHora4 = string.Format("{0:D}", dataNova);
+            Console.WriteLine(formatDataHora4);
+
+            // Para combinar os dois (data e hora - D e T ) use o f
+            var formatDataHora5 = string.Format("{0:f}", dataNova);
+            Console.WriteLine(formatDataHora5);
+
+            // Para combinar os dois (data e hora - D e T )
+            // mas como short, useo g
+            var formatDataHora6 = string.Format("{0:g}", dataNova);
+            Console.WriteLine(formatDataHora6);
+
+            //  o R e r usa no padrão que muitos usam padrões do sistema
+            var formatDataHora7 = string.Format("{0:r}", dataNova);
+            Console.WriteLine(formatDataHora7);
+
+            // u - Padrão universal
+            //  o R e r usa no padrão que muitos usam padrões do sistema
+            var formatDataHora8 = string.Format("{0:u}", dataNova);
+            Console.WriteLine(formatDataHora8);
+
+            // O mongo por exemplo usa o padrão do s
+            // s - Padrão de alguns sistemas
+            //  o R e r usa no padrão que muitos usam padrões do sistema
+            var formatDataHora9 = string.Format("{0:s}", dataNova);
+            Console.WriteLine(formatDataHora9);
+
         }
     }
 }
