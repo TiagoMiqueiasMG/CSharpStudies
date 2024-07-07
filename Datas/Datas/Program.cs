@@ -85,6 +85,18 @@ namespace Datas
             var formatDataHora9 = string.Format("{0:s}", dataNova);
             Console.WriteLine(formatDataHora9);
 
+            // Sempre que precisar adicionar algo em sua data
+            // Useo os métodos
+
+            var dataAdd = DateTime.Now;
+            Console.WriteLine(dataAdd);
+            Console.WriteLine(dataAdd.AddDays(12));
+            Console.WriteLine(dataAdd.AddDays(-5));
+            Console.WriteLine(data.AddMonths(1));
+            // Podendo usar os Years, hour, seconds. ..
+
+
+
         }
     }
 }
