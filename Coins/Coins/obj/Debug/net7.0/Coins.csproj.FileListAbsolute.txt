@@ -1,0 +1,14 @@
+D:\Studies_CSHARP\CSharpStudies\Coins\Coins\bin\Debug\net7.0\Coins.exe
+D:\Studies_CSHARP\CSharpStudies\Coins\Coins\bin\Debug\net7.0\Coins.deps.json
+D:\Studies_CSHARP\CSharpStudies\Coins\Coins\bin\Debug\net7.0\Coins.runtimeconfig.json
+D:\Studies_CSHARP\CSharpStudies\Coins\Coins\bin\Debug\net7.0\Coins.dll
+D:\Studies_CSHARP\CSharpStudies\Coins\Coins\bin\Debug\net7.0\Coins.pdb
+D:\Studies_CSHARP\CSharpStudies\Coins\Coins\obj\Debug\net7.0\Coins.GeneratedMSBuildEditorConfig.editorconfig
+D:\Studies_CSHARP\CSharpStudies\Coins\Coins\obj\Debug\net7.0\Coins.AssemblyInfoInputs.cache
+D:\Studies_CSHARP\CSharpStudies\Coins\Coins\obj\Debug\net7.0\Coins.AssemblyInfo.cs
+D:\Studies_CSHARP\CSharpStudies\Coins\Coins\obj\Debug\net7.0\Coins.csproj.CoreCompileInputs.cache
+D:\Studies_CSHARP\CSharpStudies\Coins\Coins\obj\Debug\net7.0\Coins.dll
+D:\Studies_CSHARP\CSharpStudies\Coins\Coins\obj\Debug\net7.0\refint\Coins.dll
+D:\Studies_CSHARP\CSharpStudies\Coins\Coins\obj\Debug\net7.0\Coins.pdb
+D:\Studies_CSHARP\CSharpStudies\Coins\Coins\obj\Debug\net7.0\Coins.genruntimeconfig.cache
+D:\Studies_CSHARP\CSharpStudies\Coins\Coins\obj\Debug\net7.0\ref\Coins.dll
