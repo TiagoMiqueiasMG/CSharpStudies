@@ -131,6 +131,15 @@ namespace Datas
             var horaAustralia = TimeZoneInfo.ConvertTimeFromUtc(utcDate, timeZoneAustralia);
             Console.WriteLine(horaAustralia);
 
+            // timespan
+            // É uma unidade de medida para data e hora universal          
+            // Ele pega os nano segundos
+            var timeSpan = new TimeSpan();
+            Console.WriteLine(timeSpan);
+
+            var timeSpanHoraMinutoSegundo = new TimeSpan(5, 12 , 8);
+            Console.WriteLine(timeSpanHoraMinutoSegundo);
+
             // Para pegar todos os timezones do sistema
             var timezones = TimeZoneInfo.GetSystemTimeZones();
             foreach (var timezone in timezones)
@@ -140,10 +149,6 @@ namespace Datas
                 Console.WriteLine(TimeZoneInfo.ConvertTimeFromUtc(utcDate, timezone));
                 Console.WriteLine("__________");
             }
-
-
-
-
 
         }
     }
