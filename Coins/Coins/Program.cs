@@ -45,6 +45,22 @@ namespace Coins
                 "P",
                 CultureInfo.CreateSpecificCulture("pt")));
 
+            // 3 tipos de conversão de moedas mais usados
+            // Para arrendodar na média
+            decimal formatvalue = 1546.10m;
+            Console.WriteLine(
+                Math.Round(formatvalue)
+            );
+
+            // Ceiling(telhado) - arrendonda para cima 
+            Console.WriteLine(
+                Math.Ceiling(formatvalue)
+            );
+
+            // Floor - arrendonda para baixo 
+            Console.WriteLine(
+                Math.Floor(formatvalue)
+            );
 
         }
     }
