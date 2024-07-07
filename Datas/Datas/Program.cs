@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace Datas
 {
@@ -95,6 +96,19 @@ namespace Datas
             Console.WriteLine(data.AddMonths(1));
             // Podendo usar os Years, hour, seconds. ..
 
+            // convertendo para a hora para de acordo com as 
+            // culturas 
+            var br = new CultureInfo("pt-BR");
+            var us = new CultureInfo("en-US");
+            var pt = new CultureInfo("pt-PT");
+            var dinamarca = new CultureInfo("de-DE");
+            // vai pegar a formatação da data da máquina
+            var atual = CultureInfo.CurrentCulture;
+            
+            Console.WriteLine(DateTime.Now.ToString("D",pt));
+            Console.WriteLine(DateTime.Now.ToString("D", dinamarca));
+            Console.WriteLine(DateTime.Now.ToString("D", dinamarca));
+            Console.WriteLine(DateTime.Now.ToString("D", atual));
 
 
         }
