@@ -102,13 +102,47 @@ namespace Datas
             var us = new CultureInfo("en-US");
             var pt = new CultureInfo("pt-PT");
             var dinamarca = new CultureInfo("de-DE");
-            // vai pegar a formatação da data da máquina
+            // vai pegar a formatação da data da máquina que está pegando
             var atual = CultureInfo.CurrentCulture;
             
             Console.WriteLine(DateTime.Now.ToString("D",pt));
             Console.WriteLine(DateTime.Now.ToString("D", dinamarca));
             Console.WriteLine(DateTime.Now.ToString("D", dinamarca));
             Console.WriteLine(DateTime.Now.ToString("D", atual));
+
+            // Timezone
+            // Utc vai pegar a data no formato puro - tirando o timezone
+            // Tirando a hora do servidor
+            var dataUniversal = DateTime.UtcNow;
+            Console.WriteLine(dataUniversal);
+
+            // Para pegar a data atual
+            Console.WriteLine(dataUniversal.ToLocalTime());
+            
+            // Se eu quiser usar uma hora diferente da data
+            // Usando timezone
+
+            var timeZoneAustralia =
+            TimeZoneInfo.FindSystemTimeZoneById("Pacific/Auckland");
+            Console.WriteLine(timeZoneAustralia);
+
+            // Convertendo a data em uma nova variável
+            DateTime utcDate = DateTime.UtcNow; 
+            var horaAustralia = TimeZoneInfo.ConvertTimeFromUtc(utcDate, timeZoneAustralia);
+            Console.WriteLine(horaAustralia);
+
+            // Para pegar todos os timezones do sistema
+            var timezones = TimeZoneInfo.GetSystemTimeZones();
+            foreach (var timezone in timezones)
+            {
+                Console.WriteLine(timezone.Id);
+                Console.WriteLine(timezone);
+                Console.WriteLine(TimeZoneInfo.ConvertTimeFromUtc(utcDate, timezone));
+                Console.WriteLine("__________");
+            }
+
+
+
 
 
         }
