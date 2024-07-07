@@ -62,18 +62,42 @@ namespace Arrays
             // CopyTo
             var meuArray = new int[5] {1, 2, 3, 4, 5};
             
-            for(var index = 0; index < meuArray.Length; index++){
+            for(var index = 0; index < meuArray.Length; index++)
+            {
                 Console.WriteLine(meuArray[index]);
             }
 
+            // Usando um ofreach
+            // Percorre todos os itens, mas sem precisar especificar o Lenght
+            foreach (var item in meuArray)
+            {
+                Console.WriteLine(item);
+            }
 
-        
+            // Usando um ofreach
+            // Percorre todos os itens, mas sem precisar especificar o Lenght
+
+            var funcionarios = new Funcionario[5];
+            funcionarios[0] = new Funcionario() {Id = 2578, Nome = "Tiago"};
+
+            foreach (var funcionario in funcionarios)
+            {
+                Console.WriteLine(funcionario.Id);
+                Console.WriteLine(funcionario.Nome);
+            }
+
         }
 
         // Definição da struct Teste
         public struct Teste
         {
             public int Id { get; set; }
+        }
+
+        public struct Funcionario
+        {
+            public int Id {get; set; }
+            public string Nome {get; set;}
         }
     }
 }
