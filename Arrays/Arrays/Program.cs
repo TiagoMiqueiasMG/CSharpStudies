@@ -85,6 +85,23 @@ namespace Arrays
                 Console.WriteLine(funcionario.Id);
                 Console.WriteLine(funcionario.Nome);
             }
+            
+            // Alterando valores
+            var primeiro = new int[4];
+            // Neste caso só apontamos para o mesmo endereço da memória
+            var segundo = primeiro;
+
+            // Exemplo, aqui está sendo referenciado o segundo na impressão
+            // Mas o valor ainda receberá o mesmo valor do primeiro
+            primeiro[0] =23;
+            Console.WriteLine(segundo[0]);
+
+            // Funcionaria também executando o primeiro de alguma posiçaõ usando o CopyTo()
+            segundo[0] = primeiro[0];
+            primeiro.CopyTo(segundo, 0);
+
+            // Ou fazer um foreach e copiar um array para o outro
+            
 
         }
 
