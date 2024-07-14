@@ -1,0 +1,14 @@
+D:\Studies_CSHARP\CSharpStudies\Exceptions\Exceptions\bin\Debug\net7.0\Exceptions.exe
+D:\Studies_CSHARP\CSharpStudies\Exceptions\Exceptions\bin\Debug\net7.0\Exceptions.deps.json
+D:\Studies_CSHARP\CSharpStudies\Exceptions\Exceptions\bin\Debug\net7.0\Exceptions.runtimeconfig.json
+D:\Studies_CSHARP\CSharpStudies\Exceptions\Exceptions\bin\Debug\net7.0\Exceptions.dll
+D:\Studies_CSHARP\CSharpStudies\Exceptions\Exceptions\bin\Debug\net7.0\Exceptions.pdb
+D:\Studies_CSHARP\CSharpStudies\Exceptions\Exceptions\obj\Debug\net7.0\Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+D:\Studies_CSHARP\CSharpStudies\Exceptions\Exceptions\obj\Debug\net7.0\Exceptions.AssemblyInfoInputs.cache
+D:\Studies_CSHARP\CSharpStudies\Exceptions\Exceptions\obj\Debug\net7.0\Exceptions.AssemblyInfo.cs
+D:\Studies_CSHARP\CSharpStudies\Exceptions\Exceptions\obj\Debug\net7.0\Exceptions.csproj.CoreCompileInputs.cache
+D:\Studies_CSHARP\CSharpStudies\Exceptions\Exceptions\obj\Debug\net7.0\Exceptions.dll
+D:\Studies_CSHARP\CSharpStudies\Exceptions\Exceptions\obj\Debug\net7.0\refint\Exceptions.dll
+D:\Studies_CSHARP\CSharpStudies\Exceptions\Exceptions\obj\Debug\net7.0\Exceptions.pdb
+D:\Studies_CSHARP\CSharpStudies\Exceptions\Exceptions\obj\Debug\net7.0\Exceptions.genruntimeconfig.cache
+D:\Studies_CSHARP\CSharpStudies\Exceptions\Exceptions\obj\Debug\net7.0\ref\Exceptions.dll
